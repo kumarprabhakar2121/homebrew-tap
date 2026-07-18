@@ -1,26 +1,18 @@
 # Homebrew tap — VoltPeek
 
-Install [VoltPeek](https://github.com/kumarprabhakar2121/VoltPeek) via Homebrew:
-
 ```bash
 brew tap kumarprabhakar2121/tap
 brew install --cask voltpeek
 ```
 
-Or in one line:
+After the tap is added, short installs work:
 
 ```bash
-brew install --cask kumarprabhakar2121/tap/voltpeek
-```
-
-## Update
-
-```bash
+brew install --cask voltpeek
 brew upgrade --cask voltpeek
-```
-
-## Uninstall
-
-```bash
 brew uninstall --cask voltpeek
 ```
+
+App: https://github.com/kumarprabhakar2121/VoltPeek
+
+> Official `brew install --cask voltpeek` (no tap) requires Apple notarization and Homebrew notability. Until then, use this tap.
