@@ -1,6 +1,6 @@
 cask "voltpeek" do
-  version "1.1.1"
-  sha256 "087090ab5313333fa23b7d958de2a03ec0750b278c43d886b7edb9576845639c"
+  version "1.3.0"
+  sha256 "1a9e8cc9d18cb7071cf7b41b07100af72ac80b29aca7caba32d76f936e14da4b"
 
   url "https://github.com/kumarprabhakar2121/VoltPeek/releases/download/v#{version}/VoltPeek-#{version}.dmg"
   name "VoltPeek"
